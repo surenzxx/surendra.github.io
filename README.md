@@ -1,2 +1,2 @@
-# surenzxx.github.io
+# surendra.github.io
 My awesome webite
