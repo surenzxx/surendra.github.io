@@ -1,3 +1,16 @@
-h1 {
-  color: red;
+/*
+ 	  |\_/|  			cat? cats.
+ 	 / @ @ \      		she's allergic, ha
+ 	( > º < )    
+ 	 `>>x<<´   			by suren
+ 	 /  O  \
+*/
+body {
+	text-align: center;
+	background-color: #F1F1F1;
+	color: #85CC82;
+	font-family: 'Quicksand', sans-serif;	
+}
+.suren {
+	font-size: 70px;
 }
