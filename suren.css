@@ -8,9 +8,25 @@
 body {
 	text-align: center;
 	background-color: #F1F1F1;
-	color: #85CC82;
-	font-family: 'Quicksand', sans-serif;	
+	color: #4BAF4E;
+	font-family: 'Quicksand', sans-serif;
+    text-decoration:none;
 }
+
+a:link,
+a:visited{
+    text-decoration: none;
+    color: #4BAF4E;
+
+}
+
 .suren {
 	font-size: 70px;
+    font-weight: 500;
+}
+
+
+h4{
+    color:rgba(204, 2, 2, 0.78)
+
 }
