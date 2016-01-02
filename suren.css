@@ -2,7 +2,7 @@
  	  |\_/|  			cat? cats.
  	 / @ @ \      		she's allergic, ha
  	( > º < )    
- 	 `>>x<<´   			by suren
+ 	 `>>x<<´   			by suren(dra)
  	 /  O  \
 */
 body {
@@ -21,7 +21,7 @@ a:visited{
 }
 
 .suren {
-	font-size: 70px;
+	font-size: 80px;
     font-weight: 500;
 }
 
@@ -29,4 +29,28 @@ a:visited{
 h4{
     color:rgba(204, 2, 2, 0.78)
 
+}
+#origin {
+    font-size: 40px;
+    line-height: 10px;
+}
+li {
+	font-size: 30px;
+	text-align: center;
+}
+.work li{
+	display: inline;
+        font-size: 35px;
+	text-align: justify;
+}
+li a:hover {
+	color: #4BA4FB;
+}
+ul {
+	list-style-type: none;
+}
+
+.myWork{
+    font-size: 25px;
+    
 }
