@@ -19,7 +19,7 @@ body a:hover {
 a:link,
 a:visited{
     text-decoration: none;
-    color: #4BAF4E;
+    color: rgba(204, 2, 2, 0.78);
 
 }
 
@@ -37,22 +37,23 @@ h4{
     font-size: 40px;
     line-height: 10px;
 }
-li {
-	font-size: 30px;
-	text-align: center;
-}
+
 .work li{
-	display: inline;
-        font-size: 35px;
-	text-align: justify;
+    font-size: 25px;
+	text-align: center;
 }
 
 ul {
 	list-style-type: none;
 }
 
-.myWork{
-    font-size: 25px;
+.container{
     
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 65%;
+    padding-left: 7%;
+    padding-right: 7%;
 }
+
 
