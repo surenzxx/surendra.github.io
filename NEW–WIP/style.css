@@ -1,0 +1,47 @@
+
+
+body{
+    background-color: #22ac3d; 
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 3%;
+    margin-left: 3%;
+    text-align: left;
+    font-family: "Quicksand", sans-serif;
+    font-size: 12pt;
+    line-height: 1.8em;
+    display: inline-block;
+/*    height: 10x0%;
+    width: 100%;
+    overflow: hidden;*/
+}
+
+.redcontainer {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 3%;    
+    padding-left: 3%;
+    background-color: #E53A40;
+    border-radius: 15px;
+}
+
+.yellowcontainer {
+    padding-top: 2%;
+    padding-bottom: 2%
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color: #FFF024;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.circular {
+    background-position: center center;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url(pennapps.png) no-repeat;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    }
