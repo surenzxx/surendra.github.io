@@ -1,0 +1,76 @@
+body {
+    font-family: Helvetica,arial,sans-serif;
+    font-weight: normal;
+    line-height: 1.6em;
+    font-size: 12px;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    line-height: 1.2em;
+    text-transform: none;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    background-color: aliceblue;
+}
+
+#canvas {
+max-width: 900px;
+margin: auto;
+padding: 20px;
+}
+
+#header {
+    margin-bottom: 12px;
+}
+
+#header: before {
+    content: "";
+    display: table;
+}
+
+#logo{
+    float: left;
+}
+
+#logoForName{
+    letter-spacing: 0.0217391em;
+    margin: 0;
+    font-family: fantasy;
+    font-size: 46px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    line-height: 1.2em;
+}
+
+.logo-subtitle {
+    letter-spacing: 0.105263em;
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    font-style: normal;
+    line-height: 0em;
+    font-size: 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #666765;
+    margin-top: .7em;
+    width: 100%;
+}
+
+#topNav nav, #topNav ul, #topNav li, #topNav a{
+    float: right;
+    position: relative;
+    z-index: 890;
+    font-family: "futura-pt";
+    font-size: 13px;
+    line-height: 1.6em;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-style: normal;
+    list-style-type: none;
+    margin-right: 5px;
+}
