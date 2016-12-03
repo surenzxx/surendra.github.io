@@ -32,6 +32,16 @@ div {
 
 .header {
     margin-bottom: 12px;
+    overflow: auto;
+}
+.header:before, .page:before{
+    content: "";
+    display: table;
+}
+
+#header:after, #page:after, #footer:after, footer:after, .meta-row:after, .clear:after {
+    content: "";
+    display: table;
 }
 
 .logo {
@@ -49,9 +59,11 @@ div {
     font-style: normal;
     display: inline-block;
     line-height: 1.2em;
+    padding-bottom: 0;
 }
 
 .logo-subtitle{
+    padding-top: 0;
     letter-spacing: 0.105263em;
     font-family: "Josefin Sans";
     font-weight: 400;
@@ -87,5 +99,24 @@ div {
 .navBar li {
     float: left;
     position: relative;
-    margin-right: 5px;
+    margin-right: 10px;
 }
+
+.page-divider {
+    border-bottom-width: 4px;
+    border-bottom: 1px solid #ddd;
+}
+
+.extra-page-header {
+    width: 100%;
+    margin-top: 14px;
+    padding-bottom: 17px;
+}
+
+.page-header-text {
+    margin-bottom: 0; 
+    margin-top: 0;
+    text-align: center;
+    color: #222;
+} 
+
