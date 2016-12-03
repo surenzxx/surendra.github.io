@@ -1,168 +1,74 @@
+body {
+    font-family: Helvetica,arial,sans-serif;
+    font-weight: normal;
+    line-height: 1.6em;
+    font-size: 12px;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    line-height: 1.2em;
+    text-transform: none;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+     background-color: #EDEDF4;
+    color: #777;
+    background-image: none;
+    background-position: top left;
+    background-size: auto;
+    background-attachment: scroll;
+    background-repeat: repeat;
+
+}
+
 div {
     display: block;
 }
 
-body {
-    background-color: #ededed; 
-    background-attachment: scroll;
-    margin: 0;
-    line-height: 1.2em;
-    font-weight: 400; 
-} 
-
-#canvas{
+#canvas {
     max-width: 900px;
     margin: auto;
     padding: 20px;
-}
+} 
 
-#header {
+.header {
     margin-bottom: 12px;
 }
 
-#header:before, #page:before, #footer:before, footer:before, .meta-row:before, .clear:before, #header:after, #page:after, #footer:after, footer:after, .meta-row:after, .clear:after{
-    
-    content: "";
-    display: table;
+.logo {
+    float: left;
 }
 
-#header:after, #page:after, #footer:after, footer:after, .meta-row:after, .clear:after{
-    clear: both;
-}
-
-#header:before, #page:before, #footer:before, footer:before, .meta-row:before, .clear:before, #header:after, #page:after, #footer:after, footer:after, .meta-row:after, .clear:after{
-    
-    content: "";
-    display: table;
-}
-
-#name, #topNav {
-    float:left;
-}
-
-.site-title .logo {
-    margin: 0;
-    font-family: Oswald,arial,sans-serif;
-    letter-spacing: 0px;
+.logo-title{
+    color: #222;
+    letter-spacing: 0.0217391em;
     font-family: "futura-pt";
     font-size: 46px;
     text-transform: uppercase;
     text-decoration: none;
-    letter-spacing: 1px;
     font-weight: 400;
     font-style: normal;
     display: inline-block;
     line-height: 1.2em;
 }
 
-body {
-    font-family: Helvetica, arial, sans-serif;
-    font-weight: normal;
-    line-height: 1.6em;
-    font-size: 12px;
+.logo-subtitle{
+    letter-spacing: 0.105263em;
     font-family: "Josefin Sans";
-    font-size: 20px;
-    line-height: 1.2em;
-    text-transform: none;
-    text-decoration: none;
-    font-weight: 400;
-    font-style: normal
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 1em 0 .5em
-}
-h1 {
-    font-family: Helvetica, arial, sans-serif;
-    font-weight: bold;
-    line-height: 1.2em;
-    font-size: 22px;
-    text-transform: none;
-    font-family: "Josefin Sans";
-    font-size: 36px;
-    line-height: .9em;
-    text-transform: lowercase;
-    text-decoration: none;
-    letter-spacing: 0px;
-    font-weight: 400;
-    font-style: normal
-}
-h2 {
-    font-family: Helvetica, arial, sans-serif;
-    font-weight: bold;
-    line-height: 1.2em;
-    font-size: 18px;
-    font-family: "Josefin Sans";
-    font-size: 26px;
-    line-height: .9em;
-    text-transform: none;
-    text-decoration: none;
-    letter-spacing: 0px;
-    font-weight: 600;
-    font-style: normal
-}
-h3 {
-    font-family: Helvetica, arial, sans-serif;
-    font-weight: bold;
-    font-family: "futura-pt";
-    font-size: 13px;
-    line-height: 1.2em;
-    text-transform: none;
-    text-decoration: none;
-    letter-spacing: 0px;
-    font-weight: 700;
-    font-style: normal
-}
-p {
-    font-family: Helvetica, arial, sans-serif;
-    font-weight: normal;
-    line-height: 1.6em;
-    font-size: 12px;
-    font-family: "Josefin Sans";
-    font-size: 20px;
-    line-height: 1.2em;
-    text-transform: none;
-    text-decoration: none;
     font-weight: 400;
     font-style: normal;
-    margin: 0 0 1em
-}
-blockquote {
-    margin: 1em 0;
-    padding: 0 0 0 1em;
-    border: 1px solid #777;
-    border-width: 0 0 0 1px
-}
-ul,
-ol,
-dl {
-    font-family: Helvetica, arial, sans-serif;
-    font-weight: normal;
-    line-height: 1.6em;
-    font-size: 12px;
-    font-family: "Josefin Sans";
-    font-size: 20px;
-    line-height: 1.2em;
-    text-transform: none;
+    line-height: 0em;
+    font-size: 19px;
+    text-transform: capitalize;
     text-decoration: none;
-    font-weight: 400;
-    font-style: normal;
-    margin: 1em 0
+    color: #666765;
+    margin-top: .7em;
+    width: 100%;
 }
-nav ul,
-nav ol {
-    margin: 0
-}
-#topNav {
-    font-family: Georgia, serif;
-    font-weight: normal;
-    font-style: italic;
-    text-transform: none;
-    letter-spacing: 0px;
+
+.navBar {
+    float:right;
+    position: relative;
+    z-index: 890;
     font-family: "futura-pt";
     font-size: 13px;
     line-height: 1.6em;
@@ -172,71 +78,14 @@ nav ol {
     font-weight: 400;
     font-style: normal
 }
-#topNav nav,
-#topNav ul,
-#topNav li,
-#topNav a {
-    font-family: Georgia, serif;
-    font-weight: normal;
-    font-style: italic;
-    text-transform: none;
-    letter-spacing: 0px;
-    font-family: "futura-pt";
-    font-size: 13px;
-    line-height: 1.6em;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 1px;
-    font-weight: 400;
-    font-style: normal
-}
-#topNav ul,
-#topNav li {
-    text-decoration: none !important
-}
-.underline-body-links .html-block a,
-.underline-body-links .project-description a,
-.underline-body-links .entry-content a,
-.underline-body-links .product-excerpt a,
-.underline-body-links .markdown-block a {
-    border-bottom: 1px solid #111;
-    border-color: rgba(17, 17, 17, .2)
-}
-.underline-body-links .html-block a:hover,
-.underline-body-links .project-description a:hover,
-.underline-body-links .entry-content a:hover,
-.underline-body-links .product-excerpt a:hover,
-.underline-body-links .markdown-block a:hover {
-    border-color: #444
-}
-#canvas {
-    max-width: 900px;
-    margin: 0px auto;
-    padding: 20px
-}
-.collection-type-index.full-width-index #canvas {
-    max-width: 100%
-}
-.collection-type-index.full-width-index #header,
-.collection-type-index.full-width-index #footer {
-    max-width: 900px;
-    margin-right: auto;
-    margin-left: auto
-}
-#header {
-    margin-bottom: 12px
-}
-#page {
-    padding: 14px 0;
-    opacity: 1;
-    position: relative
-}
+.navBar ul {
+    text-decoration: none! important;
+    list-style: none;
+    list-style-image: none;
 
-.layout-style-left #topNav {
-    float: right;
-}
-
-#logo,
-#topNav {
-    float: right;
+} 
+.navBar li {
+    float: left;
+    position: relative;
+    margin-right: 5px;
 }
