@@ -10,6 +10,7 @@ body {
     vertical-align: middle;
 }
 
+
 .bigDiv {
     font-weight: 300;
     font-size: 2.5rem;
@@ -59,28 +60,18 @@ a {
     text-decoration: none;
     color: black;
 }
-
-/*Resources Page*/
-
-#resourcesIntroduction{
-    padding-top: 1%;
-}
-
-.subTitle{
-    font-size: 0.7em;
-    color:#26C646; 
-    padding-bottom: 0%;
-} 
-.resourcesList{
-    font-size: 0.8em;
-    list-style-type:circle;
-    margin-left: 0.000000001%;
+a:hover { 
+    color: #ff4500;
 }
 
 /* Javascript – about me, what I can do STYLES */
 .sidebarLink{
     text-decoration: none;
     color:#26C646; 
+}
+
+a :hover { 
+    color: #ff4500;
 }
 
 .slider {
@@ -106,6 +97,23 @@ a {
 
 .slidingPanelHeading {
     text-align: center;
+}
+
+/*Resources Page*/
+
+#resourcesIntroduction{
+    padding-top: 1%;
+}
+
+.subTitle{
+    font-size: 0.7em;
+    color:#26C646; 
+    padding-bottom: 0%;
+} 
+.resourcesList{
+    font-size: 0.8em;
+    list-style-type:circle;
+    margin-left: 0.000000001%;
 }
 
 /*Drop down menu code FROM W3-SCHOOLS */
