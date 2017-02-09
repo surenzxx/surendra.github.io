@@ -32,6 +32,10 @@ body {
 
 }
 
+.projectParagraph{
+    font-size: 200%;
+}
+
 .container {
     overflow: hidden;
 }
@@ -103,12 +107,12 @@ a:hover {
 }
 
 .subTitle{
-    font-size: 0.7em;
+    font-size: 70%;
     color:#26C646; 
     padding-bottom: 0%;
 } 
 .resourcesList{
-    font-size: 0.8em;
+    font-size: 80%;
     list-style-type:circle;
     margin-left: 0.000000001%;
 }
@@ -116,7 +120,7 @@ a:hover {
 /*Drop down menu code FROM W3-SCHOOLS */
 /* The container <div> - needed to position the dropdown content */
 .skillsDropDown{
-    font-size: 2.0rem;
+    font-size: 170%;
     border: none;
     cursor: pointer;
     color: none;
