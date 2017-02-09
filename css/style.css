@@ -33,7 +33,8 @@ body {
 }
 
 .projectParagraph{
-    font-size: 2vw;
+    font-size: 2.
+    vw;
 }
 
 .container {
@@ -69,11 +70,6 @@ a:hover {
 }
 
 /* Javascript – about me, what I can do STYLES */
-.sidebarLink{
-    text-decoration: none;
-    color:#26C646; 
-}
-
 .slider {
     background-color: #E6E6E6;
 }
@@ -82,13 +78,22 @@ a:hover {
     font-size: 1.4vw;
     padding: 1.5vw;
     margin:auto;
-    text-align: left;
     font-weight: lighter;
 }
 
-#profilePic {
-    max-width: 85%;
-    max-height: 75%;
+.sidebarLink{
+    text-decoration: none;
+    color:#26C646; 
+}   
+
+.sidebarParagraph{
+    max-width:100vw;
+    max-height:100vw;
+}
+
+.profilePic {
+    max-width: 43vw;
+    max-height: 75vw;
     text-align: center;
 }
 
