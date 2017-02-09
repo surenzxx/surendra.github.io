@@ -13,7 +13,7 @@ body {
 
 .bigDiv {
     font-weight: 300;
-    font-size: 250%;
+    font-size: 2.5vw;
     margin-top: 5%;
     margin-left: 6%;
     z-index: 1;
@@ -33,7 +33,7 @@ body {
 }
 
 .projectParagraph{
-    font-size: 200%;
+    font-size: 2vw;
 }
 
 .container {
@@ -64,6 +64,9 @@ a {
     color: black;
 }
 
+a:hover { 
+    color: #ff4500;
+}
 
 /* Javascript – about me, what I can do STYLES */
 .sidebarLink{
@@ -71,28 +74,20 @@ a {
     color:#26C646; 
 }
 
-a:hover { 
-    color: #ff4500;
-}
-
 .slider {
-    font-size: 87.5%;
-    line-height: 1.2;
     background-color: #E6E6E6;
-    padding: 1%;
 }
 
 .sidebar{
-    max-width: 95%;
+    font-size: 1.4vw;
+    padding: 1.5vw;
     margin:auto;
     text-align: left;
-    font-size: 68%;
     font-weight: lighter;
-
 }
 
 #profilePic {
-    max-width: 100%;
+    max-width: 50vw;
     display: inline;
 }
 
@@ -107,12 +102,12 @@ a:hover {
 }
 
 .subTitle{
-    font-size: 70%;
+    font-size: 7.0vw;
     color:#26C646; 
     padding-bottom: 0%;
 } 
 .resourcesList{
-    font-size: 80%;
+    font-size: 8.0vw;
     list-style-type:circle;
     margin-left: 0.000000001%;
 }
