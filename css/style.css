@@ -90,8 +90,7 @@ a:hover {
 }   
 
 .profilePic {
-    max-width: 40vw;
-    max-height: 75vw;
+    max-width: 70vh;
     padding-left: 7%;    
 }
 
