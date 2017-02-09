@@ -87,10 +87,9 @@ a:hover {
 }
 
 #profilePic {
-    max-width: 43vw;
-    max-height: 43vw;
+    max-width: 85%;
+    max-height: 75%;
     text-align: center;
-    padding-left: 4%;
 }
 
 .slidingPanelHeading {
