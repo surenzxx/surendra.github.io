@@ -87,8 +87,9 @@ a:hover {
 }
 
 #profilePic {
-    max-width: 50vw;
-    display: inline;
+    max-width: 43vw;
+    text-align: center;
+    padding-left: 4%;
 }
 
 .slidingPanelHeading {
