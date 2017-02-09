@@ -88,6 +88,7 @@ a:hover {
 
 #profilePic {
     max-width: 43vw;
+    max-height: 43vw;
     text-align: center;
     padding-left: 4%;
 }
