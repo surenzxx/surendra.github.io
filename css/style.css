@@ -79,6 +79,7 @@ a:hover {
     padding: 1.5vw;
     margin:auto;
     font-weight: lighter;
+    text-align: center;
 }
 .projectParagraph{
     font-size: 3vw;
@@ -91,7 +92,6 @@ a:hover {
 
 .profilePic {
     max-width: 70vh;
-    padding-left: 7%;    
 }
 
 .slidingPanelHeading {
