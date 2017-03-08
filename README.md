@@ -18,3 +18,5 @@ Evan Mays – http://evanmays.com/
 Akhilesh Yarabarla – http://yarabarla.com/
 
 Mary Karroqe – http://mkarroqe.co/
+
+More website inspiration – https://github.com/HackathonHackers/personal-sites/
