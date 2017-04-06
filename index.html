@@ -1,152 +1,168 @@
-<!DOCTYPE html>
-<html>
+<!-- surenzxx -->
 <head>
-	<title>Surendra Persaud | wavy </title>
-	<meta charset="utf-8">
-	<link rel="shortcut icon" href="images/waves.ico" />
+    <title>Surendra Persaud | wavy </title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="images/waves.ico">
 
-	<!-- Style sheet links -->
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
-	<link rel="stylesheet" href="css/style.css">
+    <!-- Style sheet links -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 
-	<!-- Javascript links -->
-	<script src="js/jquery-3.1.1.min.js"></script>
-	<script src="js/jquery.slidereveal.min.js"></script>
-	<script src="js/main.js"></script>
+    <!-- Javascript links -->
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery.slidereveal.min.js"></script>
+    <script src="js/main.js"></script>
 
 </head>
 
 <body>
-	<!--  bigDiv --> 
-	<div class="bigDiv">
-		<div class="introduction">
-			<p>Yo! My name is</p>
-			<h1 id="name">Surendra Persaud</h1>
-		</div>
+    <div class="slide-reveal-overlay" style="display: none; position: fixed; top: 0px; left: 0px; height: 100%; width: 100%; z-index: 1048; background-color: rgba(0, 0, 0, 0.498039);"></div>
+    <div class="slide-reveal-overlay" style="display: none; position: fixed; top: 0px; left: 0px; height: 100%; width: 100%; z-index: 1048; background-color: rgba(0, 0, 0, 0.498039);"></div>
+    <!--  bigDiv -->
+    <div class="bigDiv">
+        <div class="introduction">
+            <p>Yo! My name is</p>
+            <h1 id="name">Surendra Persaud</h1>
+        </div>
 
-		<!--  container --> 
-		<div class="container">
+        <!--  container -->
+        <div class="container">
 
-			<!-- about Me | unordered list of contents for each little link -->			
-			<ul class="aboutMe">
-				
-				<!-- content for javascript sliding effect -->
-				<div id="aboutMeSlider" class="slider">
-					<div class="sidebar">
-						<h1 class="slidingPanelHeading">
-							<a class="slidingPanelHeading" href="http://lmgtfy.com/?q=guyana">guyana up</a> &#x1F1EC;&#x1F1FE;
-						</h1>
-						<img class="profilePic" src="images/surendra.JPG">
-						<p class="sidebarParagraph">
-							I want to make sure everyone can succeed.
-						</p>
+            <!-- about Me | unordered list of contents for each little link -->
+            <ul class="aboutMe">
 
-						<p class="sidebarParagraph">
-							I aspire to be a <a class="sidebarLink" href="https://www.flickr.com/photos/surenz/albums">photographer</a> &#x1F4F7;,
-							<br>
-							I enjoy lifting weights,
-							<br>
-							and I love to dance.
-						</p>
+                <!-- content for javascript sliding effect -->
+                <div id="aboutMeSlider" class="slider" style="position: fixed; width: 53%; transition: all 700ms ease; height: 100%; top: 0px; right: -533.703px; z-index: 1049;">
+                    <div class="sidebar">
+                        <h1 class="slidingPanelHeading">
+                            <a class="slidingPanelHeading" href="http://lmgtfy.com/?q=guyana">guyana up</a> 🇬🇾
+                        </h1>
+                        <img class="profilePic" src="images/surendra.JPG">
+                        <p class="sidebarParagraph">
+                            I want to make sure everyone can succeed.
+                        </p>
 
-						<p class="sidebarParagraph">
-							My goal is to empower young people with technology. 
-							<br>
+                        <p class="sidebarParagraph">
+                            I aspire to be a <a class="sidebarLink" href="https://www.flickr.com/photos/surenz/albums">photographer</a> 📷,
+                            <br> I enjoy lifting weights,
+                            <br> and I love to dance.
+                        </p>
 
-							I currently do this at <a class="sidebarLink" href="http://younghackers.us"> The Young Hackers </a> and <a class="sidebarLink" href=""> IC Intiative</a>.
-						</p>
-						<p class="sidebarParagraph">
-							Click <a href="resources.html" class="sidebarLink">here</a> for some miscellanous resources.
+                        <p class="sidebarParagraph">
+                            My goal is to empower young people with technology.
+                            <br> I currently do this at <a class="sidebarLink" href="http://younghackers.us"> The Young Hackers </a> and <a class="sidebarLink" href=""> IC Intiative</a>.
+                        </p>
+                        <p class="sidebarParagraph">
+                            Click <a href="resources.html" class="sidebarLink">here</a> for some miscellanous resources.
 
-						</p>
+                        </p>
 
-					</div>
+                    </div>
 
-				</div>
-				<!-- DIV when clicked, triggers the JQUERY -->
-				<li> <a href="#" id="aboutMeTrigger"> about me </a> </li>
+                </div>
+                <!-- DIV when clicked, triggers the JQUERY -->
+                <li> <a href="#" id="aboutMeTrigger"> about me </a> </li>
 
-				<!-- content for javascript sliding effect -->
-				<div id="skillsSlider" class="slider">
-					<div class="sidebar">
-						<h1 class="slidingPanelHeading">my skills  &  projects</h1>
-						<br>
-						<table width="100%">
-							<tr>
-								<td align="left">
-									<div class="dropdown">
-										<a class="skillsDropDown">coding <i class="fa fa-html5" aria-hidden="true"></i> <i class="fa fa-css3" aria-hidden="true"></i></a>
-										<div class="dropdown-content">
-											<a href="#">HTML/CSS</a>
-											<a href="#">Swift</a>
-											<a href="#">Java</a>
-											<a href="#">Python</a>
-										</div>
-									</div>
-								</td>
-								<td align="center">
-									<div class="dropdown">
-										<a class="skillsDropDown">multimedia <i class="fa fa-video-camera" aria-hidden="true"></i> <i class="fa fa-camera" aria-hidden="true"></i> </a>
-										<div class="dropdown-content">
-											<a href="#">Adobe Suite</a>
-											<a href="#">Final Cut Pro</a>
-											<a href="#">Microsoft Enterprise</a>
-											<a href="#">Google Suite</a>
-										</div>
-										<br>
-									</div>
-								</td>
-								<td align="right">						<div class="dropdown">
-									<a class="skillsDropDown">soft skills <i class="fa fa-male" aria-hidden="true"></i> <i class="fa fa-female" aria-hidden="true"></i></a>
-									<div class="dropdown-content">
-										<a href="#">Public speaking</a>
-										<a href="#">Diversity Integration</a>
-										<a href="#">Creative Direction</a>
-										<a href="#">Leadership</a>
-										<a href="#">Design</a>
-									</div>
-								</div></td>
-							</tr>
-						</table>
-						<p class="projectParagraph"> <a target="_blank" class="sidebarLink" >Media Plug</a></p>
-						<p class="projectParagraph"><a target="_blank" class="sidebarLink" >Give Dapps</a></p>
-						<p class="projectParagraph"><a target="_blank" class="sidebarLink" >Research Project w/ Dr. Kim Yelin</a></p>
-						<p class="projectParagraph"><a target="_blank" class="sidebarLink" href="https://github.com/surenzxx/the-times-they-are-a-changing">The Times They Are A Changin'</a></p>
+                <!-- content for javascript sliding effect -->
+                <div id="skillsSlider" class="slider" style="position: fixed; width: 53%; transition: all 700ms ease; height: 100%; top: 0px; right: -533.703px; z-index: 1049;">
+                    <div class="sidebar">
+                        <h1 class="slidingPanelHeading">my skills &amp; projects</h1>
+                        <br>
+                        <table width="100%">
+                            <tbody>
+                                <tr>
+                                    <td align="left">
+                                        <div class="dropdown">
+                                            <a class="skillsDropDown">coding <i class="fa fa-html5" aria-hidden="true"></i> <i class="fa fa-css3" aria-hidden="true"></i></a>
+                                            <div class="dropdown-content">
+                                                <a href="#">HTML/CSS</a>
+                                                <a href="#">Swift</a>
+                                                <a href="#">Java</a>
+                                                <a href="#">Python</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td align="center">
+                                        <div class="dropdown">
+                                            <a class="skillsDropDown">multimedia <i class="fa fa-video-camera" aria-hidden="true"></i> <i class="fa fa-camera" aria-hidden="true"></i> </a>
+                                            <div class="dropdown-content">
+                                                <a href="#">Adobe Suite</a>
+                                                <a href="#">Final Cut Pro</a>
+                                                <a href="#">Microsoft Enterprise</a>
+                                                <a href="#">Google Suite</a>
+                                            </div>
+                                            <br>
+                                        </div>
+                                    </td>
+                                    <td align="right">
+                                        <div class="dropdown">
+                                            <a class="skillsDropDown">soft skills <i class="fa fa-male" aria-hidden="true"></i> <i class="fa fa-female" aria-hidden="true"></i></a>
+                                            <div class="dropdown-content">
+                                                <a href="#">Public speaking</a>
+                                                <a href="#">Diversity Integration</a>
+                                                <a href="#">Creative Direction</a>
+                                                <a href="#">Leadership</a>
+                                                <a href="#">Design</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="projectParagraph"> <a target="_blank" class="sidebarLink">Media Plug</a>
+                        </p>
+                        <p class="projectParagraph"><a target="_blank" class="sidebarLink">Give Dapps</a>
+                        </p>
+                        <p class="projectParagraph"><a target="_blank" class="sidebarLink">Research Project w/ Dr. Kim Yelin</a>
+                        </p>
+                        <p class="projectParagraph"><a target="_blank" class="sidebarLink" href="https://github.com/surenzxx/the-times-they-are-a-changing">The Times They Are A Changin'</a>
+                        </p>
 
-					</div>
-				</div>
-				<!-- DIV when clicked, triggers the JQUERY -->
+                    </div>
+                </div>
+                <!-- DIV when clicked, triggers the JQUERY -->
 
-				<li> <a href="#" id="skillsTrigger"> what I can do</a> </li>
+                <li> <a href="#" id="skillsTrigger"> what I can change
+</a> </li>
 
-				<!--  e-mail Me  --> 
-				<li> <a id="emailMe" href="mailto:persaudsurendra@gmail.com"> email me! </a> </li>
-			</ul>
-		</div>
+                <!--  e-mail Me  -->
+                <li> <a id="emailMe" href="mailto:persaudsurendra@gmail.com"> email me! </a> </li>
+            </ul>
+        </div>
 
-		<!-- 	social media icons using font-awesome -->	
-		<div class="socialMedia">
+        <!-- 	social media icons using font-awesome -->
+        <div class="socialMedia">
 
-			<a class="socialIcons" href="https://github.com/surenzxx"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
-			<a class="socialIcons" href="https://linkedin.com/in/surenzxx"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-			<a class="socialIcons" href="https://www.facebook.com/surenzxx"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-			<a class="socialIcons" href="https://instagram.com/surenzxx">	<i class="fa fa-instagram" aria-hidden="true"></i></a>
-			<a class="socialIcons" target="_blank" href="https://drive.google.com/file/d/0BzagfzV3-QkEeVk2MkNFUTQ0MW8/view?usp=sharing"><i class="fa fa-file-text" aria-hidden="true"></i></a>
+            <a class="socialIcons" href="https://github.com/surenzxx"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+            <a class="socialIcons" href="https://linkedin.com/in/surenzxx"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a class="socialIcons" href="https://www.facebook.com/surenzxx"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a class="socialIcons" href="https://instagram.com/surenzxx"> <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a class="socialIcons" target="_blank" href="https://drive.google.com/file/d/0BzagfzV3-QkEeVk2MkNFUTQ0MW8/view?usp=sharing"><i class="fa fa-file-text" aria-hidden="true"></i></a>
 
-		</div>
-	</div>
-<!-- Google Anallytics Tracking-->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        </div>
+    </div>
+    <!-- Google Anallytics Tracking-->
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-93007372-1', 'auto');
-  ga('send', 'pageview');
+        ga('create', 'UA-93007372-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 
-</script>
+
+
 
 </body>
-</html>
