@@ -25,15 +25,20 @@ body {
     font-weight: 700;
 }
 
+#name {
+    color: #26C646;
+}
+
 .column-left {
     float: left;
     width: 68%;
-    margin-top: 1%;
+    margin-top: 0.5%;
     margin-right: 2%;
     font-size: 125%;
 }
 
 .column-right {
+    margin-top:0.5%;
     float: left;
     width: 28%;
     margin-left: 2%;
@@ -54,7 +59,6 @@ a:hover {
 }
 
 .profile-pic {
-    margin-top: 16px;
     margin-bottom: 16px;
     border-radius: 50%;
 }
