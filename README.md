@@ -1,6 +1,6 @@
 # surenzxx.github.io
-My name is Surendra Persaud.
-Feel free to use my code to make into your own. I encourage you to e-mail me what you think if you came accross my website :) 
+My name is Surendra.
+Feel free to use my code to make into your own.
 
 Inspired by: 
 ------
