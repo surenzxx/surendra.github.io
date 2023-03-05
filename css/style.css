@@ -81,7 +81,8 @@ a:hover {
 .social-icons {
     color: #26C646;
     text-decoration: none;
-    padding: 1%;
+    padding-right: 2%;
+    padding-top: 2%;
     font-size: 150%;
 }
 /***************************
