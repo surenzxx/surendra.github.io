@@ -17,6 +17,11 @@ body {
     color: #212121;
 }
 
+p {
+    font-size: 125%;
+
+}
+
 .intro {
     font-family: 'Lato', sans-serif, normal;
     font-size: 550%;
@@ -60,12 +65,14 @@ a:hover {
 }
 
 .profile-pic {
-    margin-bottom: 16px;
     border-radius: 50%;
+    width: 300px;
+    height: auto;
 }
 
 .caption {
     text-align: center;
+    padding-right: 80px;
     margin: 0;
     font-size: 125%;
     font-weight: 700;
